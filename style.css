@@ -1,12 +1,21 @@
 
 header {
-  width:100%;
-  position:relative;
-  z-index:5;
-  background-color:red;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  background-color: black;
 }
 
 nav {
   margin: 0;
   padding: 20px 0;
+}
+
+nav li {
+  color: white;
+  font-family: arial;
+  font-weight: 800;
+  font-size: 20px;
+  display: inline-block;
+  width: 80px;
 }
