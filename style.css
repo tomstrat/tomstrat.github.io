@@ -2,17 +2,15 @@
 header {
   z-index: 10;
   background-color: black;
-  position: relative;
+  position: fixed;
   width: 100%;
   margin-top: auto;
+  top: 0;
 }
 
 nav {
   text-align: center;
   padding: 20px;
-
-
-
 }
 
 nav li {
@@ -28,7 +26,8 @@ nav li {
   background-color: red;
 }
 
-body{
+body {
   background-color: purple;
   margin: 0 auto;
+  margin-top: 150px;
 }
