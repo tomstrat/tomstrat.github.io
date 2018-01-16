@@ -1,14 +1,18 @@
 
 header {
-  width: 100%;
-  position: relative;
-  z-index: 5;
+  z-index: 10;
   background-color: black;
+  position: relative;
+  width: 100%;
+  margin-top: auto;
 }
 
 nav {
-  margin: 0;
-  padding: 20px 0;
+  text-align: center;
+  padding: 20px;
+
+
+
 }
 
 nav li {
@@ -17,6 +21,14 @@ nav li {
   font-weight: 800;
   font-size: 20px;
   display: inline-block;
-  width: 80px;
+  width: 120px;
   white-space: nowrap;
+  float: center;
+  border: 3px red;
+  background-color: red;
+}
+
+body{
+  background-color: purple;
+  margin: 0 auto;
 }
