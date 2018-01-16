@@ -5,3 +5,8 @@ header {
   z-index:5;
   background-color:red;
 }
+
+nav {
+  margin: 0;
+  padding: 20px 0;
+}
